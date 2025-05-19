@@ -17,3 +17,13 @@ function checkCountValue() {
         alert ("Your Instagram post gained 20 followers! Congrats!")
     }
 }
+
+function resetCounter() {
+    count = 0;
+    displayCount();
+    checkeResetCounter();
+}
+
+function checkeResetCounter() {
+    alert ("Your counter has been reset.");
+}
